@@ -1,10 +1,11 @@
 {
   "name": "backend-project",
   "version": "1.0.0",
+  "type": "module",
   "description": "A Backend project with chai aur code yt",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "JavaScript",
@@ -12,5 +13,11 @@
     "MERN"
   ],
   "author": "Hardik Vanza",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "prettier": "^3.8.2"
+  }
 }
